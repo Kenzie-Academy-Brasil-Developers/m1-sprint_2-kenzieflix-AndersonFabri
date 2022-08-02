@@ -67,3 +67,22 @@ main article {
     border-color: #fff;
     border-radius: 10px;
 }
+
+main ul li:hover > img {
+    border: 2px solid #fff;
+    transition: 0.7s;
+}
+
+#Perfil:hover {
+    filter: brightness(3);
+}
+
+main ul li:hover > p {
+    color: #ffffff
+}
+
+main .button:hover{
+    background: #ffff;
+    color: #000;
+    transition: 0.7s;
+}
