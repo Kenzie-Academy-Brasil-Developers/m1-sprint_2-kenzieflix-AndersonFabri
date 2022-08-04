@@ -32,9 +32,8 @@ main h1 {
 main ul {
     display: flex;
     justify-content: center;
-    gap: 26px;
+    gap: 30px;
     margin-top: 70px;
-    height: 700;
     list-style-type: none;
 }
 
@@ -43,16 +42,20 @@ main ul li img {
     display: inline-block;
     height: 160px;
     border-radius: 10px;
-
-
+    border: 2px solid transparent;
 }
 
 main ul li p {
     text-align: center;
-    color: #fff;
+    color: #9c9c9c;
 }
 
 main article {
+    display: flex;
+    justify-content: center;
+}
+
+main section {
     display: flex;
     justify-content: center;
 }
@@ -66,6 +69,12 @@ main article {
     color: #fff;
     border-color: #fff;
     border-radius: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+
+
+
 }
 
 main ul li:hover > img {
@@ -73,12 +82,12 @@ main ul li:hover > img {
     transition: 0.7s;
 }
 
-#Perfil:hover {
-    filter: brightness(3);
-}
-
 main ul li:hover > p {
     color: #ffffff
+}
+
+.perfil:hover{
+    filter: brightness(3);
 }
 
 main .button:hover{
